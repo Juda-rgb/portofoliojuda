@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Juda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Juda</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#project">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Juda</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Tentang Saya</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Pengalaman</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Proyek</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="c:\Users\Juda Benhur Turnip\Downloads\WhatsApp Image 2026-02-09 at 13.13.36-fotor-20260209132155.png" alt="Foto Profil" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Halo, Namaku</p>
+            <h1 class="title">Juda Benhur Turnip</h1>
+            <p class="section__text__p2">Mahasiswa USU Angkatan 25</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#kontak'">Hubungi Saya</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Profil Linked-in ku" class="icon" onclick="location.href='https://www.linkedin.com/in/juda-turnip-6aa192380 '">
+                <img src="./assets/github.png" alt="Profil GitHub ku" class="icon" onclick="location.href='https://github.com/Juda-rgb'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Pelajari Lebih Lanjut</p>
+        <h1 class="title">Tentang Saya</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="c:\Users\Juda Benhur Turnip\Downloads\WhatsApp Image 2026-02-09 at 13.22.04-fotor-20260209132535.png" alt="Foto Profil" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Icon Pengalaman" class="icon">
+                        <h3>Pengalaman</h3>
+                        <p>Belum Memulai Karir</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Icon Pendidikan" class="icon">
+                        <h3>Pendidikan</h3>
+                        <p>Mahasiswa Teknologi Informasi <br>Semester 2</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Halo! Saya Juda Benhur Turnip, seorang mahasiswa Teknologi Informasi di Universitas Sumatera Utara. Saya memiliki minat yang besar dalam pengembangan perangkat lunak dan teknologi terbaru. Saat ini, saya sedang mengeksplorasi berbagai bidang dalam teknologi informasi untuk memperluas pengetahuan dan keterampilan saya. Saya bersemangat untuk belajar dan berkontribusi dalam proyek-proyek yang menantang di masa depan.</p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Icon Arrow" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Jelajahi</p>
+        <h1 class="title">Pengalaman Saya</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Semester 1</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pemrograman Web</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Dasar Pemrograman</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Arsitektur Komputer</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Matematika Dasar</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pendidikan Pancasila</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Bahasa Indonesia</h3>
+                                    <p>Selesai</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Semester 2</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pemrograman Web Lanjutas</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pemrograman Beorientasi Objek</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Sistem Basis Data</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Struktur Data dan Algoritma</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pendidikan Kewarganegaraan</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Icon Pengalaman" class="icon">
+                                <div>
+                                    <h3>Pendidikan Agama Kristen Protestan</h3>
+                                    <p>Sedang Diikuti</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Icon Arrow" class="icon arrow" onclick="location.href='./#project'">
+    </section>
+    <section id="project">
+        <p class="section__text__p1">Jelajahi</p>
+        <h1 class="title">Proyekku</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="c:\Users\Juda Benhur Turnip\OneDrive\Gambar\Screenshots\Screenshot 2026-02-09 130232.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tugas Besar Pemrograman Web</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Lihat Proyek</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://juda-rgb.github.io/tubesproweb/login.html'">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Terhubung dengan</p>
+        <h1 class="title">Kontak Saya</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:judabenhur3104@gmail.com">E-mail Saya</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/juda-turnip-6aa192380 ">LinkedIn Saya</a></p>
+            </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#project">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Hak Cipta Juda Turnip</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
